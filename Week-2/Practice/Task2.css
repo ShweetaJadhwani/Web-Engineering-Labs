@@ -1,0 +1,61 @@
+h2{
+    color: green;
+}
+h3,.Group{
+    color: blue;
+    background-color: lightgreen;
+}
+.Group{
+   width: 200px;
+   height: 150px;
+
+}
+.Group2{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    padding: left 100px;
+    margin: 20px 10px 10px 20px;
+}
+.Group3{
+    width: 100px;
+    height:100px;
+    border:1px solid green;
+    padding: 100px;
+
+}
+.Group4{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 100px;
+}
+
+.Group5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 100px;
+}
+.Group6{
+    width: 100px;
+    height: 50%;
+    border: 1px solid rgb(24, 24, 17);
+    padding: 100px;
+}
+.newid{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid green;
+    
+}
+.newid2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color:bisque;
+    border: 1px solid rgb(22, 15, 22) ;
+}
