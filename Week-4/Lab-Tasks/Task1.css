@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    transition: width 2s, height 2s, transform 2s;
+    transition-duration: 5s;
+    transition-property: width;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+}
+div:hover{
+    color: azure;
+    background-color: darkgray;
+}
