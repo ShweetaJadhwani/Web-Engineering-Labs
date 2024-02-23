@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-3</title>
+  </head>
+  <body>
+    <script>
+      let newArray = [];
+      function multilpy(x) {
+        for (let i = 0; i < x.length; i++) {
+          newArray[i] = x[i] * 2;
+        }
+        return newArray;
+      }
+      function applyFunction(multiply, array) {
+        return multiply(array);
+      }
+
+      let array = [1, 2, 3];
+      console.log(applyFunction(multilpy, array));
+    </script>
+  </body>
+</html>
