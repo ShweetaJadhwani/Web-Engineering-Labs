@@ -1,0 +1,39 @@
+.container{
+    width: 1500px;
+    height: 1000px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+
+#plus{
+    width:40px;
+    height: 30px;
+    background-color: antiquewhite;
+    margin-left: 650px;
+    margin-top: 10px;
+
+}
+
+#Generate{
+    width: 70px;
+    height: 30px;
+    background-color: antiquewhite ;
+    margin-left:650px ;
+    margin-top: 50px;
+}
+
+#Content{
+    height: 80vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.ball{
+    height: 60vh;
+    width: 30vh;
+    background-color: rgb(244, 189, 151);
+    border: 3px solid gray;
+}
