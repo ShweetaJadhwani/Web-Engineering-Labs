@@ -1,0 +1,32 @@
+
+#container {
+    position: relative;
+    width: 600px; 
+    margin: auto;
+    height: 300px;
+  }
+  
+  
+  #container img{
+    width: 100px;
+    height: 100px;
+    margin-left: 7%;
+  
+  }
+
+  #container button{
+    width: 40px;
+    height: 40px;
+  }
+
+  .prev{
+    margin-left: 10%;
+    
+  }
+  .next{
+    margin-left:  600px;
+   margin-top:auto;
+
+    
+
+  }
