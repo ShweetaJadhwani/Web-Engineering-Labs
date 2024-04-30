@@ -1,86 +1,35 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
+function App() {
+  const [count, setCount] = useState(0)
 
-import React, { useState } from "react";
+  return (
+    <>
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src={viteLogo} className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </>
+  )
+}
 
-
-import "./App.css";
-
-const App = () => {
-	
-	const [counter, setCounter] = useState(0);
-
-	
-	const clicking1 = () => {
-		
-		setCounter(counter + 1);
-	};
-
-	
-	const clicking2= () => {
-		
-		setCounter(counter - 1);
-	};
-
-	return (
-		<div
-			style={{
-				display: "flex",
-				flexDirection: "column",
-				alignItems: "center",
-				justifyContent: "center",
-				fontSize: "500%",
-				position: "absolute",
-				width: "100%",
-				height: "100%",
-				top: "-15%",
-        backgroundColor:"black",
-        borderRadius:"20%"
-       
-       
-			}}
-		>
-			Counter App
-			<div
-				style={{
-					fontSize: "100%",
-					position: "relative",
-					top: "10vh",
-				}}
-			>
-				{counter}
-			</div>
-			<div className="button">
-				<button
-					style={{
-						fontSize: "30%",
-						position: "relative",
-						top: "5vh",
-						marginRight: "5px",
-						backgroundColor: "skyblue",
-						borderRadius: "20%",
-						color: "black",
-					}}
-					onClick={clicking1}
-				>
-					Increase
-				</button>
-				<button
-					style={{
-						fontSize: "30%",
-						position: "relative",
-						top: "5vh",
-						marginLeft: "5px",
-						backgroundColor: "lightyellow",
-						borderRadius: "20%",
-						color: "black",
-					}}
-					onClick={clicking2}
-				>
-					Decrease
-				</button>
-			</div>
-		</div>
-	);
-};
-
-export default App;
+export default App
